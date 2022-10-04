@@ -37,3 +37,13 @@ ON a.start_station_id = b.station_id
 WHERE a.start_date BETWEEN '2016-04-01' AND '2016-06-30'
 AND a.subscriber_type = "Subscriber"
 AND b.landmark LIKE "Redwood City";
+
+-- Out-of-scope: In 1 Query
+-- SELECT 
+-- COUNT(CASE WHEN a.start_date BETWEEN '2016-01-01' AND '2016-03-31' THEN 1 END) AS Q1,
+-- COUNT(CASE WHEN a.start_date BETWEEN '2016-04-01' AND '2016-06-30' THEN 1 END) AS Q2
+-- FROM bigquery-public-data.san_francisco.bikeshare_trips AS a
+-- LEFT JOIN bigquery-public-data.san_francisco.bikeshare_stations AS b
+-- ON a.start_station_id = b.station_id
+-- WHERE a.subscriber_type = "Subscriber"
+-- AND b.landmark LIKE "Redwood City";
