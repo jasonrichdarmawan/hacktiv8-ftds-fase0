@@ -21,7 +21,7 @@
 -- LIMIT 10;
 
 -- Query 1: Count Q1
-SELECT COUNT(trip_id) AS entry
+SELECT COUNT(a.trip_id) AS entry
 FROM bigquery-public-data.san_francisco.bikeshare_trips AS a
 LEFT JOIN bigquery-public-data.san_francisco.bikeshare_stations AS b
 ON a.start_station_id = b.station_id
@@ -30,7 +30,7 @@ AND a.subscriber_type = "Subscriber"
 AND b.landmark LIKE "Redwood City";
 
 -- Query 2: Count Q2
-SELECT COUNT(trip_id) AS entry
+SELECT COUNT(a.trip_id) AS entry
 FROM bigquery-public-data.san_francisco.bikeshare_trips AS a
 LEFT JOIN bigquery-public-data.san_francisco.bikeshare_stations AS b
 ON a.start_station_id = b.station_id
