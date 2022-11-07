@@ -22,6 +22,10 @@ dampaknya adalah: folder fase 1 -> `x_fase1`
 
 - [simpler explanation of logistic regression](./x_fase1/week01_day03/pm/playground/logistic_regression.ipynb)
 
+## reference
+
+- [L2 Ridge try to minimize coefficient, L1 Lasso to force coefficient to zero, ElasticNet do L2 -> L1 by ratio](https://towardsdatascience.com/linear-regression-models-4a3d14b8d368)
+
 
 # TODO
 
