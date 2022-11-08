@@ -13,6 +13,10 @@ dampaknya adalah: folder fase 1 -> `x_fase1`
 - [Recommendation System with Cosine Similarity & Feature Selection](week03_day01/pm/P0W3D1PM_Math_&_Stats_Solving_cases.ipynb)
 - [Feature Selection dengan corrcoef](week02_day03/pm/d2am.ipynb)
 
+# feature selection
+
+![](./images/How-to-Choose-Feature-Selection-Methods-For-Machine-Learning%20(1).webp)
+
 ## probably important
 
 - [Linear Regression and Logistic Regression technical know how](./x_fase1/week01_day03/am/Linreg_Logreg.ipynb)
@@ -26,7 +30,26 @@ dampaknya adalah: folder fase 1 -> `x_fase1`
 
 - [L2 Ridge try to minimize coefficient, L1 Lasso to force coefficient to zero, ElasticNet do L2 -> L1 by ratio](https://towardsdatascience.com/linear-regression-models-4a3d14b8d368)
 
+- [accuracy, precision, recall, f1-score](https://medium.com/analytics-vidhya/confusion-matrix-accuracy-precision-recall-f1-score-ade299cf63cd)
+  - accuracy 0.97 
+    
+    this model guess (class 1, 2, 3) correctly 97% of the time, 3% incorrectly.
+    - high accuracy does not mean good model. probably the model just guess everything as class 1. the other 3% of the data is class 2 and 3.
+  
+  - precision class 1 0.97 
+    
+    this model guess class 1 correctly 97% of the time (including false positive)
 
-# TODO
-
-- [ ] minta file `train.csv` ke Instructor. [kode.id](https://www.kode.id/courses/take/ftds0/pdfs/37136849-day-3-pm-practical-statistics-descriptive)
+    - false positive class 1 = guessing class 2 as class 1.
+    - high precision does not mean good model. probably the model just guess everything as class 1. the other 3% of the data is class 2 and 3.
+  
+  - recall class 1 0.97
+    
+    this model recognize class 1 97% of the time. 3% of the time, the model unable to recognize class 1.
+  
+  - f1-score
+    ```
+    f1-score = 2 * precision * recall
+                   ------------------
+                   precision + recall
+    ```
