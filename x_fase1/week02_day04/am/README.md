@@ -12,3 +12,5 @@ kesalahan batch sebelumnya:
       'PIL' -> 'pillow'
       'json' -> tidak perlu di requirements.txt
    3. file not exist.
+
+[huggign face](https://huggingface.co/spaces/kidfrom/fifa-2022-batch-16)
