@@ -30,6 +30,8 @@ dampaknya adalah: folder fase 1 -> `x_fase1`
   - careful, this suffer from overfitting because [RandomOverSampler](https://stackoverflow.com/questions/51064462/process-for-oversampling-data-for-imbalanced-binary-classification)
   - careful, this suffer from data leakage. i will fix this later with cross validation.
 
+- [svm](./x_fase1/week02_day01/pm/P1W2D1PM_SVM.ipynb)
+
 ## reference
 
 - [L2 Ridge try to minimize coefficient, L1 Lasso to force coefficient to zero, ElasticNet do L2 -> L1 by ratio](https://towardsdatascience.com/linear-regression-models-4a3d14b8d368)
