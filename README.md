@@ -32,6 +32,9 @@ dampaknya adalah: folder fase 1 -> `x_fase1`
 
 - [svm](./x_fase1/week02_day01/pm/P1W2D1PM_SVM.ipynb)
 
+- [knn & naive bayes](./x_fase1/week01_day04/am/P1W1D4AM_KNN_%26_Naive_Bayes.ipynb)
+- [decision tree](./x_fase1/week02_day02/am/P1W2D2AM_Decision_Tree.ipynb)
+
 ## reference
 
 - [L2 Ridge try to minimize coefficient, L1 Lasso to force coefficient to zero, ElasticNet do L2 -> L1 by ratio](https://towardsdatascience.com/linear-regression-models-4a3d14b8d368)
