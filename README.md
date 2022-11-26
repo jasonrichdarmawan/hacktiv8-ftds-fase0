@@ -13,6 +13,8 @@ dampaknya adalah: folder fase 1 -> `x_fase1`
 - [Recommendation System with Cosine Similarity & Feature Selection](week03_day01/pm/P0W3D1PM_Math_&_Stats_Solving_cases.ipynb)
 - [Feature Selection dengan corrcoef](week02_day03/pm/d2am.ipynb)
 
+- [FunctionTransformer](./x_fase1/week04_day06_libur/am/README.md)
+
 # feature selection
 
 ![](./images/How-to-Choose-Feature-Selection-Methods-For-Machine-Learning%20(1).webp)
