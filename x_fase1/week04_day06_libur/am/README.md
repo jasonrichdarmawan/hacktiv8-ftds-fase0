@@ -9,3 +9,7 @@
   2. `from utils import imp` in the `.ipynb` file
   3. `FunctionTransformer(func=imp.imp1, feature_names_out=imp.imp1_out)` in the `.ipynb` file
   4. Copy the `utils` folder to the deployment folder.
+
+  Do not edit the DataFrame args `imp1(df)`. It will edit the original data.
+
+  Use `importlib.reload(imp)` to reload the package everytime there is a change.
