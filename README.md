@@ -15,6 +15,8 @@ dampaknya adalah: folder fase 1 -> `x_fase1`
 
 - [FunctionTransformer](./x_fase1/week04_day06_libur/am/README.md)
 
+- [Threshold Tuning](./x_fase1/week04_day07_libur/pm/pm4.ipynb)
+
 # feature selection
 
 ![](./images/How-to-Choose-Feature-Selection-Methods-For-Machine-Learning%20(1).webp)
