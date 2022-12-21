@@ -1,0 +1,16 @@
+version: '3'
+services:
+  chrome:
+    image: seleniarm/standalone-chromium:latest
+
+    # reference: https://github.com/SeleniumHQ/docker-selenium#--shm-size2g
+    # Actually no issue. Just a prevention.
+    shm_size: 2gb
+
+    environment:
+      - SE_NODE_SESSION_TIMEOUT=172800
+      - SE_NODE_MAX_SESSIONS=10
+      # reference: https://github.com/SeleniumHQ/docker-selenium#running-in-headless-mode
+      # - SE_START_XVFB=false
+    ports:
+      - 4444:4444

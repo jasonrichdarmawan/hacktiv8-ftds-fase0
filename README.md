@@ -66,3 +66,9 @@ dampaknya adalah: folder fase 1 -> `x_fase1`
                    ------------------
                    precision + recall
     ```
+
+- [scraping](./week03_day05/am/am.ipynb)
+
+- [selenium multitab](./x_fase2/week04_day03/multitab-selenium/selenium.ipynb)
+
+- [docker](./x_fase2/week03_day01/pm/Dockerfile)
